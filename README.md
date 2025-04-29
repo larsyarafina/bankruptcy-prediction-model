@@ -17,17 +17,17 @@ Proses oversample dilakukan menggunakan library RandomOverSample yang menambahka
 ## 🌟 Modeling
 Selanjutnya, dibuat tiga model Machine Learning untuk memprediksi Bankrupt. 
 
-### 📋 Logistic Regression
+### ⌛ Logistic Regression
 ![Hasil Performa Logistic Regression](LR.png)
 
 Model LR dapat memprediksi dengan tingkat akurasi sebesar 76%.
 
-### 📋 Support Vector Machine
+### ⌛ Support Vector Machine
 ![Hasil Performa Support Vector Machine](svm.png)
 
 Model LR dapat memprediksi dengan tingkat akurasi sebesar 74%.
 
-### 📋 Random Forest
+### ⌛ Random Forest
 ![Hasil Performa Random Forest](rfc.png)
 
 Model LR dapat memprediksi dengan tingkat akurasi sebesar 97%.
