@@ -46,7 +46,7 @@ Berdasarkan skor importance, 5 fitur yang memiliki peran penting dalam mempredik
 
 * Per share net profit before tax
 * Continuous interest rate (after tax)
-* AFter tax net interest rate
+* After tax net interest rate
 * Net income to total assets
 * Retained earnings to total assets
 
