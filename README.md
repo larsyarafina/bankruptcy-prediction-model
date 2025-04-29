@@ -8,6 +8,7 @@
 
 ### 📋 Frequecy Betweeen Bankrupt vs No Bankrupt
 ![Frequecy Bankrupt](Frequecy_Bankrupt.png)
+
 Ditemukan bahwa jumlah company yang mengalami bankrupt hanya sedikit dibandingkan company yang tidak mengalami bankrupt. Dalam proses pembuatan model machine learning, kondisi ketimpangan kelas ini merupakan kondisi imbalance class. Adanya kondisi ini dapat mempengaruhi kinerja model Machine Learning karena cenderung bias terhadap kelas yang lain sehingga perlu dilakukan sampling untuk mengatasinya.
 
 ### 📋 Oversampling
@@ -18,14 +19,17 @@ Selanjutnya, dibuat tiga model Machine Learning untuk memprediksi Bankrupt.
 
 ### 📋 Logistic Regression
 ![Hasil Performa Logistic Regression](LR.png)
+
 Model LR dapat memprediksi dengan tingkat akurasi sebesar 76%.
 
 ### 📋 Support Vector Machine
 ![Hasil Performa Support Vector Machine](svm.png)
+
 Model LR dapat memprediksi dengan tingkat akurasi sebesar 74%.
 
 ### 📋 Random Forest
 ![Hasil Performa Random Forest](rfc.png)
+
 Model LR dapat memprediksi dengan tingkat akurasi sebesar 97%.
 
 Dari ketiga model ini, model Random Forest memiliki akurasi tertinggi sehingga model ini adalah model yang paling direkomendasikan. Namun, model yang telah dilatih masih menggunakan default parameter sehingga dilakukan hyperparameter tuning untuk mendapatkan kombinasi parameter yang dibutuhkan.
@@ -37,6 +41,7 @@ Proses tuning dilakukan menggunakan GridSearchCV yang bekerja dengan melakukan p
 Pada algoritma Random Forest, terdapat fungsi feature importance yang dapat dimanfaatkan untuk mengetahui fitur-fitur yang penting dalam model prediksi. Hal ini berguna terutama untuk data yang terdiri dari banyak fitur. 
 
 ![Feature Importance](feature_importance.png)
+
 Berdasarkan skor importance, 5 fitur yang memiliki peran penting dalam memprediksi perusahaan bangkrut adalah
 
 * Per share net profit before tax
